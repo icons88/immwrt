@@ -34,3 +34,6 @@ rm -rf feeds/packages/net/v2ray-geodata
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
 merge_package https://github.com/DHDAXCW/lede-rockchip lede-rockchip/package/wwan
+
+# 一个适用于官方openwrt(22.03/23.05/24.10) firewall4的turboacc
+curl -sSL https://raw.githubusercontent.com/icons88/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh --no-sfe
